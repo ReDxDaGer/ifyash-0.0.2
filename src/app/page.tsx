@@ -1,10 +1,10 @@
+import Hero from '../../components/hero/hero';
+import {PageWrapper} from '../page-wrapper';
 
 export default function Home() {
   return (
     <>
-      <div className="page-content">
-        <h1>Hello</h1>
-      </div>
+    <Hero />
     </>
   );
 }
